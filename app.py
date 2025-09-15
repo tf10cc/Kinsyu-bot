@@ -1,4 +1,8 @@
 import os
+
+from dotenv import load_dotenv
+load_dotenv()
+
 from datetime import date, datetime
 from flask import Flask, request, abort
 
